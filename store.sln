@@ -1,27 +1,39 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30114.105
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "domain", "domain", "{D4568AAE-ABFC-42CB-ACB7-2BB8478F17E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store", "domain\Store\Store.csproj", "{E254F0CA-BB34-4463-A51B-935D59A64ABD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Store", "domain\Store\Store.csproj", "{E254F0CA-BB34-4463-A51B-935D59A64ABD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infrastructure", "infrastructure", "{0A58328A-D023-43B6-828D-0AA6BDE2F567}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store.Memory", "infrastructure\Store.Memory\Store.Memory.csproj", "{9412214C-DB9A-4950-95AB-226A1C52320C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{E254F0CA-BB34-4463-A51B-935D59A64ABD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E254F0CA-BB34-4463-A51B-935D59A64ABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E254F0CA-BB34-4463-A51B-935D59A64ABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E254F0CA-BB34-4463-A51B-935D59A64ABD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9412214C-DB9A-4950-95AB-226A1C52320C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9412214C-DB9A-4950-95AB-226A1C52320C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9412214C-DB9A-4950-95AB-226A1C52320C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9412214C-DB9A-4950-95AB-226A1C52320C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E254F0CA-BB34-4463-A51B-935D59A64ABD} = {D4568AAE-ABFC-42CB-ACB7-2BB8478F17E9}
+		{9412214C-DB9A-4950-95AB-226A1C52320C} = {0A58328A-D023-43B6-828D-0AA6BDE2F567}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F056D217-228E-48FC-935E-CBC274669A17}
 	EndGlobalSection
 EndGlobal
