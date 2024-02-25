@@ -1,5 +1,5 @@
 ﻿using Store;
-
+using System.Linq;
 
 namespace Strore.Memory
 {
