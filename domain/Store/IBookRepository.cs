@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Store
 {
-    public interface IBookRepositorycs
+    public interface IBookRepository
     {
         Book[] GetAllByTitle(string titlePart)
     }
